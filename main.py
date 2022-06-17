@@ -1,4 +1,3 @@
-
 import tkinter as tk
 from tkinter import Text
 
@@ -11,10 +10,10 @@ canvas.pack()
 frame = tk.Frame(root, bg="White")
 frame.place(relwidth=0.8, relheight=0.8, relx=0.1, rely=0.1)
 
-Start = tk.Button(frame, text="Start", padx=10, pady=10)
+Start = tk.Button(frame, text="Start", padx=10, pady=5, fg="white", bg="#ffffcc")
 
 
-canvas.create_text(frame, 350, 75, text="Cookie Cracker", fill="black", font=('Helvetica 15 bold'))
+canvas.create_text(frame, 350, 75, text="Cookie Cracker", fill="black", font=('Helvetica 15 bold')) #
 canvas.pack()
 root.mainloop()
 
